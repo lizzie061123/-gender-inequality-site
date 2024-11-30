@@ -1,0 +1,99 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 1rem 2rem;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #d1c4e9;
+}
+#hero h2 {
+    font-size: 2.5rem;
+    color: #4a148c;
+}
+#hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+#about, #stats {
+    background: #f3e5f5;
+    border-radius: 8px;
+    padding: 2rem;
+}
+#about h2, #stats h2 {
+    color: #6a1b9a;
+}
+#stats ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+/* Footer and Form */
+footer {
+    background: #4a148c;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: none;
+}
+form button {
+    background: #6a1b9a;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+form button:hover {
+    background: #4a148c;
+}
